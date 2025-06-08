@@ -1,0 +1,152 @@
+* {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+navbar {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #587251
+}
+
+navbar ul li {
+  list-style: none;
+  margin: 15px 0;
+  display: inline-block;
+}
+
+navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+navbar ul li a:hover {
+  background-color: rgb(94, 61, 61);
+  color: darkgrey;
+}
+
+#welcome-section {
+  margin: 0;
+  padding-top: 100px;
+  background-color: rgb(37, 32, 32);
+  text-align: center;
+  height: 100vh;
+}
+
+#welcome-section h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+#welcome-section p {
+  font-size: 1rem;
+  color: #587251
+}
+
+.project-container {
+  background-color: rgb(94, 61, 61)
+}
+
+.project-container h2 {
+  color: white;
+  padding-top: 75px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.project-container hr {
+  margin: 10px;
+}
+
+#project-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 50px;
+}
+
+#project-section .card {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 324px;
+  text-align: center;
+  background-color: rgb(37, 32, 32)
+}
+
+#project-section img {
+  border-radius: 10px 10px 0 0;
+}
+
+#project-section a {
+  color: white;
+  text-decoration: none;
+}
+
+#project-section p {
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#contact-section {
+  padding-top: 100px;
+  text-align: center;
+  height: 400px;
+  background-color: rgb(37, 32, 32)
+}
+
+#contact-section h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+#contact-section p {
+  font-size: 3rem;
+  color: #587251;
+  margin-bottom: 50px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+}
+
+.link-container ul li {
+  display: inline;
+  list-style: none;
+}
+
+.link-container a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+
+.link-container a:hover {
+  color: #587251;
+}
+
+@media only screen and (max-width:400px) {
+  navbar {
+    height: 150px;
+  }
+  #welcome-section {
+    padding-top: 250px;
+  }
+}

@@ -90,6 +90,7 @@ navbar ul li a:hover {
 
 #project-section img {
   border-radius: 10px 10px 0 0;
+  width: 100%;
 }
 
 #project-section a {
@@ -149,4 +150,5 @@ navbar ul li a:hover {
   #welcome-section {
     padding-top: 250px;
   }
+
 }
